@@ -6,4 +6,5 @@ body {
 
 p {
 	border: 5px dashed lavender;
+	border-radius: 3px;
 }
