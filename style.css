@@ -1,11 +1,16 @@
 body {
 	font-family: "Limelight", "Comic Sans", cursive; 
-	background-color: rgb(140,50,190);
+	background-color: rgba(140,50,190,0.5);
 	font-weight: 700;
-	font-size: 30px;
+	font-size: 18px;
 }
 
 p {
 	border: 5px dashed lavender;
 	border-radius: 3px;
+}
+
+p::first-letter {
+	fonnt-size: 30px;
+	color: blue;
 }
